@@ -196,7 +196,7 @@ hr {
   position: absolute;
   margin-top: -670px;
   margin-left: 500px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #FFFFFF;
   box-shadow: 0px 0px 20px #67676729;
   border: 1px solid #EDEDED;
   border-radius: 10px;
@@ -224,7 +224,7 @@ hr {
 }
 
 .task span {
-  margin-left: 210px;
+  margin-left: 260px;
   color: #858585;
   opacity: 1;
 }
@@ -366,8 +366,9 @@ hr {
   .task {
     margin: 10px;
     position: absolute;
-    top: 230px;
-    width: auto;
+    top: 250px;
+    left: 7px;
+    width: 90%; 
   }
 
   .task p {
