@@ -287,7 +287,7 @@ hr {
 }
 
 
-
+/*  */
 
 
 @media only screen and (min-width:250px) and (max-width:657px) {
@@ -369,12 +369,14 @@ hr {
     top: 250px;
     left: 7px;
     width: 90%; 
+    text-align: justify;
   }
 
   .task p {
     margin: auto;
-    bottom: 50px;
+    bottom: 40px;
     right: 5px;
+    text-align: justify;
   }
 
   .back {
@@ -388,21 +390,4 @@ hr {
     position: relative;
     right: 118px;
   }
-}
-
-
-
-
-/* .task {
-    margin: auto;
-    position: relative;
-  }
-  .task1 {
-    margin: auto;
-    width: auto;
-  }
-  .task2 {
-    margin: auto;
-    width: auto;
-  } */
 }
